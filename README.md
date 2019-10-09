@@ -41,11 +41,11 @@ To DO
 ***********************************************************************************************************
 ### Citation
 
-If you find this page useful, please cite our paper:
+If you find this code useful, please cite our paper:
 
 	@inproceedings{su2019deep,
 		title={Deep Joint-Semantics Reconstructing Hashing for Large-Scale Unsupervised Cross-Modal Retrieval},
-		author={Shupeng su, Zhisheng Zhong, Chao Zhang},
+		author={Shupeng Su, Zhisheng Zhong, Chao Zhang},
 		booktitle={International Conference on Computer Vision},
 		year={2019}
 	}
