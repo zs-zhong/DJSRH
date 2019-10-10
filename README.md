@@ -44,7 +44,7 @@ DJSRH-6|−(&alpha;=1)|0.786|0.770|0.811|0.782|
 
 </center>
 
-From the table we can observe that each of our proposed components plays a certain role for our final results. We would like to highlight that the variants DJSRH-1,2,3 have surpassed UDCMH (the state of-the-art previous method in Table 2).
+From the table we can observe that each of our proposed components plays a certain role for our final results.
 
 ***********************************************************************************************************
 
