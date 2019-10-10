@@ -35,13 +35,13 @@ Table 1. The mAP@50 results on NUS-WIDE to evaluate the effectiveness of each co
 
 Model|Configuration|64bits (I->T)|64bits (T->I)|128bits (I->T)|128bits (T->I)|
 |:---------:|:---:|:-----:|:----:|:----:|:----:|
-DJSRH-1|$S=S_I$|0.717|0.712|0.741|0.735|
-DJSRH-2|$S=S<sub>T</sub>$|0.702|0.606|0.734|0.581|
-DJSRH-3|$\betaS_I+(1−\beta)S_T$|0.724|0.720|0.747|0.738|
-DJSRH-4|$+(\eta=0.4)$|0.790|0.745|0.803|0.757|
-DJSRH-5|$+(\mu=1.5)$|0.793|0.747|0.812|0.768|
-DJSRH|+($\lambda_1=\lambda_2=0.1$)|__0.798__|__0.771__|__0.817__|__0.789__|
-DJSRH-6|$−(\alpha=1)$|0.786|0.770|0.811|0.782|
+DJSRH-1|S=S<sub>I</sub>|0.717|0.712|0.741|0.735|
+DJSRH-2|S=S<sub>T</sub>|0.702|0.606|0.734|0.581|
+DJSRH-3|&betaS<sub>I</sub>+(1−&beta)S<sub>T</sub>|0.724|0.720|0.747|0.738|
+DJSRH-4|+(&eta=0.4)|0.790|0.745|0.803|0.757|
+DJSRH-5|+(&mu=1.5)|0.793|0.747|0.812|0.768|
+DJSRH|+(&lambda<sub>1</sub>=&lambda<sub>2</sub>=0.1)|__0.798__|__0.771__|__0.817__|__0.789__|
+DJSRH-6|−(&alpha=1)|0.786|0.770|0.811|0.782|
 
 From the table we can observe that each of our proposed components plays a certain role for our final results. We would like to highlight that the variants DJSRH-1,2,3 have surpassed UDCMH (the state of-the-art previous method in Table 2).
 
