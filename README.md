@@ -5,9 +5,6 @@ This repository is for "Deep Joint-Semantics Reconstructing Hashing for Large-Sc
 
 By Shupeng Su\*, [Zhisheng Zhong](https://zzs1994.github.io)\*, Chao Zhang (\* Authors contributed equally).
 
-For more details or questions, feel free to contact: 
-
-Zhisheng Zhong (zszhong@pku.edu.cn) and Shupeng Su (sushupeng@pku.edu.cn)
 
 ***********************************************************************************************************
 ### Table of contents
