@@ -33,7 +33,7 @@ To DO
 ### Ablation studies
 Table 1. The mAP@50 results on NUS-WIDE to evaluate the effectiveness of each component in DJSRH.
 
-Model|Configuration|64bits (I->T)|64bits (T->I)|128bits (I->T)|128bits (T->I)|
+Model|Configuration|64bits (I→T)|64bits (T→I)|128bits (I→T)|128bits (T→I)|
 |:---------:|:---:|:-----:|:----:|:----:|:----:|
 DJSRH-1|S=S<sub>I</sub>|0.717|0.712|0.741|0.735|
 DJSRH-2|S=S<sub>T</sub>|0.702|0.606|0.734|0.581|
