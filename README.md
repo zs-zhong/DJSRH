@@ -33,14 +33,14 @@ To DO
 ### Ablation studies
 Table 1. The mAP@50 results on NUS-WIDE to evaluate the effectiveness of each component in DJSRH.
 
-Model|Configuration|64bits(I->T)|64bits(T->I)|128bits(I->T)|128bits(T->I)|
+Model|Configuration|64bits (I->T)|64bits (T->I)|128bits (I->T)|128bits (T->I)|
 |:---------:|:---:|:-----:|:----:|:----:|:----:|
-DJSRH-1|S=SI|0.717|0.712|0.741|0.735|
-DJSRH-2|S=ST|0.702|0.606|0.734|0.581|
-DJSRH-3|βSI+(1−β)ST|0.724|0.720|0.747|0.738|
+DJSRH-1|S=S_I|0.717|0.712|0.741|0.735|
+DJSRH-2|S=S_T|0.702|0.606|0.734|0.581|
+DJSRH-3|βS_I+(1−β)S_T|0.724|0.720|0.747|0.738|
 DJSRH-4|+(η=0.4)|0.790|0.745|0.803|0.757|
 DJSRH-5|+(µ=1.5)|0.793|0.747|0.812|0.768|
-DJSRH|+(λ1=λ2=0.1)|0.798|0.771|0.817|0.789|
+DJSRH|+(λ_1=λ_2=0.1)|0.798|0.771|0.817|0.789|
 DJSRH-6|−(α=1)|0.786|0.770|0.811|0.782|
 
 From the table we can observe that each of our proposed components plays a certain role for our final results. We would like to highlight that the variants DJSRH-1,2,3 have surpassed UDCMH (the state of-the-art previous method in Table 2).
