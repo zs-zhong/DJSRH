@@ -48,7 +48,13 @@ From the table we can observe that each of our proposed components plays a certa
 ***********************************************************************************************************
 
 ### Comparisons with SOTAs
-To DO
+Table 2. The mAP@50 results on image query text (I→T ) and text query image (T→I) retrieval tasks at various encoding lengths and
+datasets. The best performances are shown as _Red_ while the suboptimal as __Blue__.
+<div align=center><img src="https://github.com/zzs1994/DJSRH/blob/master/page_image/results.png" width="90%" height="90%"></div align=center>
+
+
+Figure 1. The precision@top-R curves on different datasets at 128 encoding length.
+<div align=center><img src="https://github.com/zzs1994/DJSRH/blob/master/page_image/results_curve.png" width="90%" height="90%"></div align=center>
 
 ***********************************************************************************************************
 ### Citation
