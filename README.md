@@ -1,7 +1,9 @@
 # DJSRH
 ***********************************************************************************************************
 
-This repository is for "Deep Joint-Semantics Reconstructing Hashing for Large-Scale Unsupervised Cross-Modal Retrieval" (to appear in ICCV 2019, Oral)
+This repository is for "Deep Joint-Semantics Reconstructing Hashing for Large-Scale Unsupervised Cross-Modal Retrieval" 
+
+(to appear in ICCV 2019, Oral)
 
 By Shupeng Su\*, [Zhisheng Zhong](https://zzs1994.github.io)\*, Chao Zhang (\* Authors contributed equally).
 
@@ -23,7 +25,7 @@ Cross-modal hashing encodes the multimedia data into a common binary hash space 
 ***********************************************************************************************************
 
 ### Usage
-To DO
+TO DO
 
 ***********************************************************************************************************
 
