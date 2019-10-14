@@ -52,7 +52,7 @@ From the table we can observe that each of our proposed components plays a certa
 
 ### Comparisons with SOTAs
 Table 2. The mAP@50 results on image query text (I→T) and text query image (T→I) retrieval tasks at various encoding lengths and
-datasets. The best performances are shown as <span style="color:red;">Red</span> while the suboptimal as <span style="color:blue;">Blue</span>.
+datasets. The best performances are shown as <font color="red">Red</font> while the suboptimal as <font color="blue">Blue</font>.
 <div align=center><img src="https://github.com/zzs1994/DJSRH/blob/master/page_image/results.png" width="90%" height="90%"></div align=center>
 
 
