@@ -44,14 +44,14 @@ You can download dataset from:
 
 __The following experiment results are the average values, if you demand for better results, please run the experiment a few more times (2~5).__
 
-- 1. Clone this repo: `git clone https://github.com/zzs1994/DJSRH.git`.
-- 2. Change the 'DATASET_DIR' in `settings.py` to where you place the datasets.
-- 3. An example to train a model:
+- Clone this repo: `git clone https://github.com/zzs1994/DJSRH.git`.
+- Change the 'DATASET_DIR' in `settings.py` to where you place the datasets.
+- An example to train a model:
 ```bash
 python train.py
 ```
-- 4. Modify the parameter `EVAL = True` in `settings.py` for validation.
-- 5. Ablation studies (__optional__): if you want to evaluate other components of our DJSRH, please refer to our paper and `settings.py`.
+- Modify the parameter `EVAL = True` in `settings.py` for validation.
+- Ablation studies (__optional__): if you want to evaluate other components of our DJSRH, please refer to our paper and `settings.py`.
 
 ***********************************************************************************************************
 
