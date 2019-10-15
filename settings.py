@@ -66,7 +66,7 @@ GPU_ID = 0
 NUM_WORKERS = 8
 EPOCH_INTERVAL = 2
 
-MODEL_DIR = './model'
+MODEL_DIR = './checkpoint'
 
 
 logger = logging.getLogger('train')
