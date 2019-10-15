@@ -34,6 +34,10 @@ Cross-modal hashing encodes the multimedia data into a common binary hash space 
 - h5py
 
 #### Datasets
+You can download dataset from:
+- Wikipedia articles, [link](http://www.svcl.ucsd.edu/projects/crossmodal)
+- MIRFLICKR25K, [Baidu Pan]((pan.baidu.com), [link](https://pan.baidu.com/s/1o5jSliFjAezBavyBOiJxew), password: 8dub
+- NUS-WIDE (top-10 concept), [Baidu Pan]((pan.baidu.com), [link](https://pan.baidu.com/s/1GFljcAtWDQFDVhgx6Jv_nQ), password: ml4y
 
 ***********************************************************************************************************
 
