@@ -9,14 +9,14 @@ By Shupeng Su\*, [Zhisheng Zhong](https://zzs1994.github.io)\*, Chao Zhang (\* A
 
 
 ***********************************************************************************************************
-### Table of contents
+## Table of contents
 - [Introduction](#introduction)
 - [Usage](#usage)
 - [Ablation studies](#ablation-studies)
 - [Comparisons with SOTAs](#comparisons-with-SOTAs)
 ***********************************************************************************************************
 
-### Introduction
+## Introduction
 
 Cross-modal hashing encodes the multimedia data into a common binary hash space in which the correlations among the samples from different modalities can be effectively measured. Deep cross-modal hashing further improves the retrieval performance as the deep neural networks can generate more semantic relevant features and hash codes. In this paper, we study the unsupervised deep cross-modal hash coding and propose Deep JointSemantics Reconstructing Hashing (DJSRH), which has the following two main advantages. First, to learn binary codes that preserve the neighborhood structure of the original data, DJSRH constructs a novel joint-semantics affinity matrix which elaborately integrates the original neighborhood information from different modalities and accordingly is capable to capture the latent intrinsic semantic affinity for the input multi-modal instances. Second, DJSRH later trains the networks to generate binary codes that maximally reconstruct above joint-semantics relations via the proposed reconstructing framework, which is more competent for the batch-wise training as it reconstructs the specific similarity value unlike the common Laplacian constraint merely preserving the similarity order. Extensive experiments demonstrate the significant improvement by DJSRH in various cross-modal retrieval tasks.
 
@@ -24,8 +24,8 @@ Cross-modal hashing encodes the multimedia data into a common binary hash space 
 
 ***********************************************************************************************************
 
-### Usage
-#### Requirements
+## Usage
+### Requirements
 - python == 2.7.x
 - pytorch == 0.3.1
 - torchvision
@@ -33,14 +33,14 @@ Cross-modal hashing encodes the multimedia data into a common binary hash space 
 - PIL
 - h5py
 
-#### Datasets
+### Datasets
 You can download dataset from:
 - Wikipedia articles, [Link](http://www.svcl.ucsd.edu/projects/crossmodal/)
 - MIRFLICKR25K, [Baidu Pan Link](https://pan.baidu.com/s/1o5jSliFjAezBavyBOiJxew), password: 8dub
 - NUS-WIDE (top-10 concept), [Baidu Pan Link](https://pan.baidu.com/s/1GFljcAtWDQFDVhgx6Jv_nQ), password: ml4y
 
 
-#### Process
+### Process
 
 __The following experiment results are the average values, if you demand for better results, please run the experiment a few more times (2~5).__
 
@@ -55,7 +55,7 @@ python train.py
 
 ***********************************************************************************************************
 
-### Ablation studies
+## Ablation studies
 Table 1. The mAP@50 results on NUS-WIDE to evaluate the effectiveness of each component in DJSRH.
 
 <center>
@@ -76,7 +76,7 @@ From the table we can observe that each of our proposed components plays a certa
 
 ***********************************************************************************************************
 
-### Comparisons with SOTAs
+## Comparisons with SOTAs
 Table 2. The mAP@50 results on image query text (I→T) and text query image (T→I) retrieval tasks at various encoding lengths and
 datasets. The best performances are shown as <font color="red">Red</font> while the suboptimal as <font color="blue">Blue</font>.
 <div align=center><img src="https://github.com/zzs1994/DJSRH/blob/master/page_image/results.png" width="90%" height="90%"></div align=center>
@@ -85,7 +85,7 @@ Figure 1. The precision@top-R curves on different datasets at 128 encoding lengt
 <div align=center><img src="https://github.com/zzs1994/DJSRH/blob/master/page_image/results_curve.png" width="90%" height="90%"></div align=center>
 
 ***********************************************************************************************************
-### Citation
+## Citation
 
 If you find this code useful, please cite our paper:
 
