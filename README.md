@@ -40,7 +40,7 @@ You can download dataset from:
 - NUS-WIDE (top-10 concept), [Baidu Pan](https://pan.baidu.com), [Link](https://pan.baidu.com/s/1GFljcAtWDQFDVhgx6Jv_nQ), password: ml4y
 
 
-#### How to use
+#### Process
 
 __The following experiment results are the average values, if you demand for better results, please run the experiment a few more times (2~5).__
 
