@@ -35,9 +35,23 @@ Cross-modal hashing encodes the multimedia data into a common binary hash space 
 
 #### Datasets
 You can download dataset from:
-- Wikipedia articles, [link](http://www.svcl.ucsd.edu/projects/crossmodal)
+- Wikipedia articles, [link](http://www.svcl.ucsd.edu/projects/crossmodal/)
 - MIRFLICKR25K, [Baidu Pan]((pan.baidu.com), [link](https://pan.baidu.com/s/1o5jSliFjAezBavyBOiJxew), password: 8dub
 - NUS-WIDE (top-10 concept), [Baidu Pan]((pan.baidu.com), [link](https://pan.baidu.com/s/1GFljcAtWDQFDVhgx6Jv_nQ), password: ml4y
+
+
+#### How to use
+
+__The following experiment results are the average values, if you demand for better results, please run the experiment a few more times (2~5).__
+
+- Clone this repo: `git clone https://github.com/zzs1994/DJSRH.git`.
+- Change the 'DATASET_DIR' in `settings.py` to where you place the datasets.
+- An example to train a model:
+```bash
+python train.py
+```
+- Modify the parameter `EVAL = True` in `settings.py` for validation.
+- Ablation studies (optional): if you want to evaluate other components of our DJSRH, please refer to our paper and `settings.py`.
 
 ***********************************************************************************************************
 
@@ -66,8 +80,6 @@ From the table we can observe that each of our proposed components plays a certa
 Table 2. The mAP@50 results on image query text (I→T) and text query image (T→I) retrieval tasks at various encoding lengths and
 datasets. The best performances are shown as <font color="red">Red</font> while the suboptimal as <font color="blue">Blue</font>.
 <div align=center><img src="https://github.com/zzs1994/DJSRH/blob/master/page_image/results.png" width="90%" height="90%"></div align=center>
-
-__The above results are the average values, if you want better results, please run the experiment a few more times (2~5).__
 
 Figure 1. The precision@top-R curves on different datasets at 128 encoding length.
 <div align=center><img src="https://github.com/zzs1994/DJSRH/blob/master/page_image/results_curve.png" width="90%" height="90%"></div align=center>
