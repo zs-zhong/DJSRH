@@ -25,7 +25,15 @@ Cross-modal hashing encodes the multimedia data into a common binary hash space 
 ***********************************************************************************************************
 
 ### Usage
-TO DO
+#### Requirements
+- python == 2.7.x
+- pytorch == 0.3.1
+- torchvision
+- CV2
+- PIL
+- h5py
+
+#### Datasets
 
 ***********************************************************************************************************
 
@@ -55,6 +63,7 @@ Table 2. The mAP@50 results on image query text (Iâ†’T) and text query image (Tâ
 datasets. The best performances are shown as <font color="red">Red</font> while the suboptimal as <font color="blue">Blue</font>.
 <div align=center><img src="https://github.com/zzs1994/DJSRH/blob/master/page_image/results.png" width="90%" height="90%"></div align=center>
 
+__The above results are the average values, if you want better results, please run the experiment a few more times (2~5).__
 
 Figure 1. The precision@top-R curves on different datasets at 128 encoding length.
 <div align=center><img src="https://github.com/zzs1994/DJSRH/blob/master/page_image/results_curve.png" width="90%" height="90%"></div align=center>
