@@ -34,7 +34,7 @@ Cross-modal hashing encodes the multimedia data into a common binary hash space 
 - h5py
 
 ### Datasets
-You can download dataset from:
+For datasets, we follow [Deep Cross-Modal Hashing's Github (Jiang, CVPR 2017)](https://github.com/jiangqy/DCMH-CVPR2017/tree/master/DCMH_matlab/DCMH_matlab). You can download the datasets from:
 - Wikipedia articles, [Link](http://www.svcl.ucsd.edu/projects/crossmodal/)
 - MIRFLICKR25K, [Baidu Pan Link](https://pan.baidu.com/s/1o5jSliFjAezBavyBOiJxew), password: 8dub
 - NUS-WIDE (top-10 concept), [Baidu Pan Link](https://pan.baidu.com/s/1GFljcAtWDQFDVhgx6Jv_nQ), password: ml4y
